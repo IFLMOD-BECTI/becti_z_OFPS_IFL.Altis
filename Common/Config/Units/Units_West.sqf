@@ -576,9 +576,9 @@ _s = _s + [""];
 _c = _c + ['CUP_B_LAV25_USMC'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [8000];
+_o = _o + [7000];
 _t = _t + [10];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -587,7 +587,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [8500];
 _t = _t + [10];
-_u = _u + [2];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -1153,14 +1153,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['B_Heli_Attack_01_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [60000];
-_t = _t + [50];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
 
 /*  don't need 2 buzzards anymore
 _c = _c + ['OFPS_BUZZA_B'];
@@ -1209,12 +1201,21 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['B_Heli_Attack_01_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [60000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['CUP_B_AV8B_MK82_USMC'];
 _p = _p + [''];
 _n = _n + ['AV8B Harrier (Rocket Pods)'];
 _o = _o + [30000];
 _t = _t + [50];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -1281,21 +1282,12 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['B_UCSV_01'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [4000];
-_t = _t + [20];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['B_UCSV_02'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [4000];
+_o = _o + [8000];
 _t = _t + [20];
-_u = _u + [0];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -1704,6 +1696,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
+/* Has some sort of new missle jammer, had to be pulled for balancing.
 _c = _c + ['OFPS_Frigate_Blu'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1712,5 +1705,6 @@ _t = _t + [25];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-ammotruck"];
+*/
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";
